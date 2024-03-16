@@ -1,10 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 section {
     display: flex;
     /*for all section*/
+    padding-bottom: 40px;
 }
 
 section div {
@@ -15,6 +18,7 @@ section div {
 div img {
     width: 50%;
     /*for all image under the div*/
+    margin-top: 0px;
 
 }
 
@@ -46,4 +50,45 @@ div p {
     margin-bottom: 35px;
     margin-top: 35px;
     text-align: justify;
+}
+
+.mission-header {
+    font-size: 35px;
+    margin-left: 26%;
+
+}
+
+.timeline {
+    display: flex;
+    position: absolute;
+    margin-top: 8%;
+    width: 100%;
+}
+
+.card-1 {
+    padding: 20px 30px 20px 30px;
+    width: 300px;
+    height: 350px;
+    background-color: #EDF5F6;
+    margin-right: 20px;
+    border-radius: 15pxg;
+
+}
+
+.card-2 {
+    padding: 20px 30px 20px 30px;
+    width: 300px;
+    height: 350px;
+    background-color: #FFEEEE;
+    margin-right: 20px;
+
+}
+
+.card-3 {
+    padding: 20px 50px 20px 50px;
+    width: 300px;
+    height: 350px;
+    background-color: #FFF4D6;
+    margin-right: 20px;
+
 }
