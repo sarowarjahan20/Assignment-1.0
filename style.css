@@ -16,7 +16,7 @@ section div {
 }
 
 div img {
-    width: 50%;
+    width: 55%;
     /*for all image under the div*/
     margin-top: 0px;
 
@@ -32,9 +32,10 @@ div h1 {
 }
 
 .stay-focused {
-    margin-top: 40px;
+    margin-top: 25px;
     width: 650px;
     padding-top: 50px;
+    margin-left: 8%;
 }
 
 .all-button {
@@ -122,14 +123,19 @@ div p {
     width: 90%;
     display: flex;
     margin-top: 25%;
+
 }
 
 
 
 .ladies-homework img {
     width: 52%;
-    padding-left: 30%;
-
+    padding-left: 27%;
+    background-image: url(images/Ellipse\ 31.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    background-position-x: 35%;
 }
 
 
@@ -138,4 +144,8 @@ div p {
     padding: 0px;
     margin: 0px;
 
+}
+
+.ladies-content p {
+    width: 70%;
 }
