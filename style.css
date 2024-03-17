@@ -38,6 +38,7 @@ div h1 {
 }
 
 .all-button {
+    /*all button style*/
     text-decoration: none;
     padding: 14px 25px;
     background-color: red;
@@ -59,10 +60,31 @@ div p {
 }
 
 .timeline {
+    /*section-2 style start*/
     display: flex;
     position: absolute;
     margin-top: 8%;
-    width: 100%;
+    width: max-content;
+    margin-left: 9%;
+}
+
+/*all cards style start from here*/
+.timeline h3 {
+    font-size: 24px;
+
+}
+
+.background-image {
+    background-image: url(images/Group\ 57404.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.timeline img {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .card-1 {
@@ -71,7 +93,7 @@ div p {
     height: 350px;
     background-color: #EDF5F6;
     margin-right: 20px;
-    border-radius: 15pxg;
+    border-radius: 30px;
 
 }
 
@@ -81,14 +103,21 @@ div p {
     height: 350px;
     background-color: #FFEEEE;
     margin-right: 20px;
+    border-radius: 30px;
 
 }
 
 .card-3 {
-    padding: 20px 50px 20px 50px;
+    padding: 20px 30px 20px 30px;
     width: 300px;
     height: 350px;
     background-color: #FFF4D6;
     margin-right: 20px;
-
+    border-radius: 30px;
 }
+
+/*all cards style ends*/
+/*third section style start from here*/
+.ladies-group {}
+
+.develop {}
