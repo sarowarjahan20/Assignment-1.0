@@ -118,6 +118,24 @@ div p {
 
 /*all cards style ends*/
 /*third section style start from here*/
-.ladies-group {}
+.ladies-group {
+    width: 90%;
+    display: flex;
+    margin-top: 25%;
+}
 
-.develop {}
+
+
+.ladies-homework img {
+    width: 52%;
+    padding-left: 30%;
+
+}
+
+
+.ladies-content {
+    width: 55%;
+    padding: 0px;
+    margin: 0px;
+
+}
