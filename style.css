@@ -35,7 +35,7 @@ div h1 {
     margin-top: 25px;
     width: 650px;
     padding-top: 50px;
-    margin-left: 9%;
+    margin-left: 10%;
 }
 
 .all-button {
@@ -151,3 +151,44 @@ div p {
 }
 
 /*third section end*/
+/*fourth section style start from here*/
+.boys-homework img {
+    width: 59%;
+    padding-left: 4%;
+
+}
+
+.boys-homework {
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 9%;
+    background-image: url(images/Ellipse\ 31.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: bottom;
+    background-position-y: 96%;
+}
+
+.boys-group {
+    width: 100%;
+    min-height: 470px;
+    display: flex;
+    margin-top: 7%;
+    background-image: url(images/Group\ 57403.png);
+    /*bacground image add*/
+    background-repeat: no-repeat;
+
+}
+
+.boys-content {
+    width: 50%;
+    padding-left: 19%;
+    padding-top: 1%;
+
+}
+
+.boys-content p {
+    width: 90%;
+}
+
+/*fourth section style end*/
